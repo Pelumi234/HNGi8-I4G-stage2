@@ -9,7 +9,7 @@ body{
 }
 .logo{
     height: 100px;
-    background: rgb(58, 26, 146);
+    background: rgb(62,62, 185);
     border: solid 2px #000000;
 }
 .sidebar{
@@ -82,7 +82,7 @@ img{
 @media screen and (max-width: 992px){
     .sidebar{
         width: 40%;
-        height: 100%;
+        height: 183%;
     }
     .main{
         margin-left: 297px;
@@ -98,16 +98,18 @@ img{
     } */
     @media screen and (max-width: 600px) {
         .sidebar{
-            width: 45%;
+            width: 47%;
             margin-top: 10vh;
             text-align: center;
+            height: 165%;
         }
         .main{
-            width: 50%;
+            width: 43%;
             padding-top: 40px;
             margin-left: 298px;
             text-align: justify;
             font-size: 10;
+            /* padding: 1px; */
         }
         img{
             width: 80%;
@@ -122,19 +124,19 @@ img{
             flex-direction: column;
         }
         .main li{
-            font-size: 14px;
+            font-size: 10px;
         }
         .main h3{
-            font-size: 16;
+            font-size: 12px;
         }
         .sidebar h1{
-            font-size: 16;
+            font-size: 14px;
         }
         .sidebar h3{
-            font-size: 14;
+            font-size: 12px;
         }
         .sidebar p{
-            font-size: 12;
+            font-size: 10px;
         }
         /* media query ends */
     }}
